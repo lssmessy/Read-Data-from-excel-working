@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63214" started-at="2015-11-25T12:16:45Z" finished-at="2015-11-25T12:17:48Z">
+  <suite name="Default suite" duration-ms="55496" started-at="2015-11-26T04:35:58Z" finished-at="2015-11-26T04:36:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63214" started-at="2015-11-25T12:16:45Z" finished-at="2015-11-25T12:17:48Z">
+    <test name="Default test" duration-ms="55496" started-at="2015-11-26T04:35:58Z" finished-at="2015-11-26T04:36:53Z">
       <class name="wb.InxPMS_Login">
-        <test-method status="PASS" signature="loginGmail(java.lang.String, java.lang.String)[pri:0, instance:wb.InxPMS_Login@5e88f7]" name="loginGmail" duration-ms="18269" started-at="2015-11-25T17:46:45Z" data-provider="datafromSheet" finished-at="2015-11-25T17:47:03Z">
+        <test-method status="PASS" signature="loginPMS(java.lang.String, java.lang.String)[pri:0, instance:wb.InxPMS_Login@723646]" name="loginPMS" duration-ms="21114" started-at="2015-11-26T10:05:58Z" data-provider="datafromSheet" finished-at="2015-11-26T10:06:19Z">
           <params>
             <param index="0">
               <value>
@@ -22,12 +22,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginGmail -->
-        <test-method status="PASS" signature="browerQuit()[pri:0, instance:wb.InxPMS_Login@5e88f7]" name="browerQuit" is-config="true" duration-ms="412" started-at="2015-11-25T17:47:03Z" finished-at="2015-11-25T17:47:04Z">
+        </test-method> <!-- loginPMS -->
+        <test-method status="PASS" signature="browerQuit()[pri:0, instance:wb.InxPMS_Login@723646]" name="browerQuit" is-config="true" duration-ms="523" started-at="2015-11-26T10:06:19Z" finished-at="2015-11-26T10:06:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browerQuit -->
-        <test-method status="PASS" signature="loginGmail(java.lang.String, java.lang.String)[pri:0, instance:wb.InxPMS_Login@5e88f7]" name="loginGmail" duration-ms="23998" started-at="2015-11-25T17:47:04Z" data-provider="datafromSheet" finished-at="2015-11-25T17:47:28Z">
+        <test-method status="PASS" signature="loginPMS(java.lang.String, java.lang.String)[pri:0, instance:wb.InxPMS_Login@723646]" name="loginPMS" duration-ms="17643" started-at="2015-11-26T10:06:19Z" data-provider="datafromSheet" finished-at="2015-11-26T10:06:37Z">
           <params>
             <param index="0">
               <value>
@@ -42,12 +42,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginGmail -->
-        <test-method status="PASS" signature="browerQuit()[pri:0, instance:wb.InxPMS_Login@5e88f7]" name="browerQuit" is-config="true" duration-ms="345" started-at="2015-11-25T17:47:28Z" finished-at="2015-11-25T17:47:28Z">
+        </test-method> <!-- loginPMS -->
+        <test-method status="PASS" signature="browerQuit()[pri:0, instance:wb.InxPMS_Login@723646]" name="browerQuit" is-config="true" duration-ms="262" started-at="2015-11-26T10:06:37Z" finished-at="2015-11-26T10:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browerQuit -->
-        <test-method status="FAIL" signature="loginGmail(java.lang.String, java.lang.String)[pri:0, instance:wb.InxPMS_Login@5e88f7]" name="loginGmail" duration-ms="19751" started-at="2015-11-25T17:47:28Z" data-provider="datafromSheet" finished-at="2015-11-25T17:47:48Z">
+        <test-method status="FAIL" signature="loginPMS(java.lang.String, java.lang.String)[pri:0, instance:wb.InxPMS_Login@723646]" name="loginPMS" duration-ms="15503" started-at="2015-11-26T10:06:37Z" data-provider="datafromSheet" finished-at="2015-11-26T10:06:53Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
-	at wb.InxPMS_Login.loginGmail(InxPMS_Login.java:41)
+	at wb.InxPMS_Login.loginPMS(InxPMS_Login.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -99,8 +99,8 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginGmail -->
-        <test-method status="PASS" signature="browerQuit()[pri:0, instance:wb.InxPMS_Login@5e88f7]" name="browerQuit" is-config="true" duration-ms="269" started-at="2015-11-25T17:47:48Z" finished-at="2015-11-25T17:47:48Z">
+        </test-method> <!-- loginPMS -->
+        <test-method status="PASS" signature="browerQuit()[pri:0, instance:wb.InxPMS_Login@723646]" name="browerQuit" is-config="true" duration-ms="281" started-at="2015-11-26T10:06:53Z" finished-at="2015-11-26T10:06:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browerQuit -->
